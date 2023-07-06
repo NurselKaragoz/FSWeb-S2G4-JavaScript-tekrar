@@ -105,9 +105,15 @@ for (let i = 0; i < sayilar.length; i++) {
     enkucuk = sayilar[i];
   }
 }
-console.log("En büyük sayı: " + enbuyuk, "En küçük sayı: " + enKucuk);
+console.log("En büyük sayı: " + enbuyuk);
+console.log("En küçük sayı: " + enkucuk);
 
 // 3b çözümü:
+sayilar.forEach(myFunction);
+
+function myFunction(sayi) {
+  if (sayi % 3 == 0) console.log(sayi);
+}
 
 /* kodlar buraya */
 

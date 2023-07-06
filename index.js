@@ -115,15 +115,14 @@ function myFunction(sayi) {
   if (sayi % 3 == 0) console.log(sayi);
 }
 
-/* kodlar buraya */
-
 //3c çözümü:
 
 /* kodlar buraya */
 
 //3d çözümü
 
-/* kodlar buraya */
+const result = sayilar.filter((sayi) => sayi < 500);
+console.log(result);
 
 //3e çözümü
 
